@@ -17,3 +17,25 @@ header {
 .me-hide {
     display: none;
 }
+
+.quiz-item {
+    border: 1px solid red;
+}
+
+.quiz-question {
+    margin-bottom: 1em;
+}
+
+.quiz-answer {
+    margin: 0 auto;
+    width: max-content;
+    text-align: left;
+}
+
+.quiz-answer label {
+    display: block;
+}
+
+.quiz-answer input {
+    margin-right: .5em;
+}
