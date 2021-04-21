@@ -24,11 +24,11 @@ var currentIndex = 0;
 var userScore = 0;
 
 var arQuestionBank = [
-    ["What is a variable in Javascript?", "A container for data values", "An in-line solution", "A property of an object", "An inline property", 1],
-    ["Inside which HTML element do we put the JavaScript?", "&lt;scripting&gt;", "&lt;script&gt;", "&lt;java&gt;", "&lt;js&gt;", 2],
-    ["Question 3", "Q3Answer 1", "Q3Answer 2", "Q3Answer 3", "Q3Answer 4", 4],
-    ["Question 4", "Q4Answer 1", "Q4Answer 2", "Q4Answer 3", "Q4Answer 4", 3],
-    ["Question 5", "Q5Answer 1", "Q5Answer 2", "Q5Answer 3", "Q5Answer 4", 1],
+    ["1. What is a variable in Javascript?", "A container for data values", "An in-line solution", "A property of an object", "An inline property", 1],
+    ["2. Inside which HTML element do we put the JavaScript?", "&lt;scripting&gt;", "&lt;script&gt;", "&lt;java&gt;", "&lt;js&gt;", 2],
+    ["3. What does HTML stand for?", "A. Hyper Text Marking Language", "B. High Text Markup Language", "C. High Tech Mechanical Logging", "D.Hyper Text Markup Language", 4],
+    ["4. How do you clear your screen in terminal?", "A. ClearScreen", "B. New", "C. cls", " D. reset", 3],
+    ["5. What the special characters for arrays?", "A. Square brackets", "B. Parentheses", "C. Periods", "D. Dollar signs", 1],
 ]
 var lastQuestion = arQuestionBank.length - 1;
 // ***** FUNCTION DEFINITIONS
