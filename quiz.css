@@ -13,6 +13,7 @@ body {
 
 header {
     margin: 1em;
+    padding: 1em;
 }
 
 .me-hide {
@@ -22,6 +23,7 @@ header {
 
 .quiz-question {
     margin-bottom: .5em;
+    padding: .5em;
 }
 
 .quiz-answer {
@@ -29,6 +31,7 @@ header {
     width: max-content;
     text-align: left;
     margin-bottom: 1em;
+    padding: .5em;
 }
 
 .quiz-answer label {

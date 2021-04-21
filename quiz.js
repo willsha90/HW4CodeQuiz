@@ -27,7 +27,7 @@ var arQuestionBank = [
     ["1. What is a variable in Javascript?", "A. A container for data values", "B. An in-line solution", "C. A property of an object", "D. An inline property", 1],
     ["2. Inside which HTML element do we put the JavaScript?", "A. &lt;scripting&gt;", "B. &lt;script&gt;", "C. &lt;java&gt;", "D. &lt;js&gt;", 2],
     ["3. What does HTML stand for?", "A. Hyper Text Marking Language", "B. High Text Markup Language", "C. High Tech Mechanical Logging", "D.Hyper Text Markup Language", 4],
-    ["4. How do you clear your screen in terminal?", "A. ClearScreen", "B. New", "C. cls","D. Reset", 3],
+    ["4. How do you clear your screen in terminal?", "A. ClearScreen", "B. New", "C. cls", "D. Reset", 3],
     ["5. What the special characters for arrays?", "A. Square brackets", "B. Parentheses", "C. Periods", "D. Dollar signs", 1],
 ]
 var lastQuestion = arQuestionBank.length - 1;
@@ -52,7 +52,7 @@ function submitAnswer(userChoice) {
         document.querySelector('.quiz-item').classList.add('me-hide');
         document.querySelector('.enter-high-scores').classList.remove('me-hide');
     }
-    
+
 }
 
 function displayQuestion(questionNumber) {
@@ -99,5 +99,4 @@ function viewScores() {
 }
 
 btnStart.addEventListener("click", startClick);
-// btnView.addEventListener("click", viewScores);
-
+btnView.addEventListener("click", viewScores);
